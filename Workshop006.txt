@@ -1,0 +1,50 @@
+Workshop 006 - Functions
+
+*******************************************************************************
+
+In this workshop, we'll look at creating functions. Functions are important
+in programming as it makes the code readable and easier to debug.
+
+*******************************************************************************
+
+___ TASK 1_____________________________________________________________________
+Create a function called printMyName(myName) which takes one parameter. 
+The function should print the given name to the HTML document.
+
+Test this function using the following code:
+
+printMyName ("Ted Mosby");
+printMyName ("Barney Stinson");
+printMyName ("Robin Sherbatski");
+printMyName ("Lily Aldrin");
+printMyName ("Marshall Eriksen");
+
+
+___ TASK 2_____________________________________________________________________
+Create a function called squareMe(num) which takes one parameter.
+The function should return the square of the number given num * num
+
+print the result to the console using console.error() 
+
+Example:
+squareMe(5);    // should print 25
+squareMe(12);   // should print 144
+squareMe(42);   // should print 1764
+
+___ TASK 3_____________________________________________________________________
+Pythagoras was a weird fellow. He could work out the length of the hypotenuse 
+of a right-angled triangle from the lengths of the other two sides. 
+
+Do a bit of research for this task to find the mathematical formula for Pythagoras
+and create a function that will calculate the length of the hypotenuse from two 
+given sizes. 
+
+You should use your squareMe() function created in Task2 to help. 
+
+
+Example:
+getHypotenuse (3, 4);   // should return 5.
+getHypotenuse (5, 12);  // should return 13.
+getHypotenuse (8, 15);  // should return 17.
+
+
