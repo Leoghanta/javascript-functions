@@ -50,6 +50,17 @@ let sum1 = addNumbers2(12, 24);     // return the value to a new variable
 sum1 = addNumbers2(sum1, 25);       // return the value to an existing variable
 console.log(addNumbers(2, 4));      // print the value to the user interface
 
+/******************************************************************/
+
+let globalVariable = 10;
+
+function myFunction() {
+    let localVariable = 20;
+    console.log(`myFunction can see ${globalVariable}`);
+    console.log(`myFunction can also see ${localVariable}`);
+}
+
+console.error (`This line can not see ${localVariable} as it is out of scope.`);
 
 
 /******************************************************************/
